@@ -4,63 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my-2nd-assignment</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:wght@300&family=Oswald&family=Poppins:wght@500&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container">
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="mt-5">
+      <section class="container">
+          <section>
+              <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"> <img src="images/Logo, Icon/Logo.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <a class="navbar-brand" href="#"> <img class="icon-img d-flex justify-content-start" src="images/Logo, Icon/Logo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      <a class="nav-link" href="#">Features</a>
-                      <a class="nav-link" href="#">Pricing</a>
-                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav justify-content-end align-middle nav-button">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href= "#">Product</a>
+                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact us</a>  
                     </div>
                   </div>
                 </div>
               </nav>
-        </section>
-        <section class="container">
+          </section>
+          <section>
             <div class="row">
-                <div class="col-md-6">
+                <div class=" col-sm-12 col-md-6 col-lg-6">
                     <img class="home-page-img" src="images/Photos/Group 33092.png" alt="">
-                  
                 </div>
-                <div class="col-md-6">
-                    <h1> <span>Nike React </span> Infinity Run 2</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry.
-                    </p>
-                    <button type="button" class="btn btn-primary">Primary</button>
+                <div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center home-page-dis">
+                    <div>
+                        <h1 class="home-title-size"> <span class="home-title">Nike React </span> <br>Infinity Run 2</h1>
+                        <p >Lorem Ipsum is simply dummy text of the printing 
+                            and typesetting industry.
+                        </p>
+                        <div class="ms-auto p-2 bd-highlight">
+                            <button type="button" class="btn btn-primary btn-lg home-button-size "><img  class="buy-button" src="images/Logo, Icon/shopping-cart 1.png" alt=""> <span class="buy-pro">BUY NOW</span> </button>
+                       </div>
+                    </div>
                 </div>
-
             </div>
-            
-        </section>
-
+          </section>
+       </section>
     </header>
+    <!----------------casual shoes area start------------------->
     <main class="mt-5">
        <section class="container">
          <h1>CASUAL SHOES</h1>
            <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
             <div class="col border-0 p-2 ">
-              <div class="card h-100   border-0 clasual-shoes-area shadow-sm p-3 mb-5 bg-white">
+              <div class="card h-100   border-0 shoes-area shadow-sm p-3 mb-5 bg-white">
                 <img src="images/Photos/image 5.png" class="card-img-top  bg-light casual-img" alt="...">
                 <div class="card-body shoes-description">
                   <h2 class="card-title">Nike Shoe</h2>
                   <p class="card-text">Lorem Ipsum is simply dummy text of the 
                     printing and typesetting industry</p>
                 </div>
-                <div class="card-footer d-flex justify-content-between border-top-0 ">
+                <div class="card-footer bg-white  d-flex justify-content-between border-top-0 ">
                     <div class="d-flex bd-highlight mb-3  footer-contant ">
                         <div class="p-2 bd-highlight product-buy"> 
                             <span class="product-price">$234</span>
@@ -73,14 +78,14 @@
               </div>
             </div>
             <div class="col border-0 p-2">
-                <div class="card h-100   border-0 clasual-shoes-area shadow-sm p-3 mb-5 bg-white">
+                <div class="card h-100  border-0 shoes-area shadow-sm p-3 mb-5 bg-white">
                    <img src="images/Photos/Daco_1703273 1.png" class="card-img-top  bg-light casual-img" alt="...">
                    <div class="card-body shoes-description">
                       <h2 class="card-title">Sneakers Skate Shoe </h2>
                        <p class="card-text">Lorem Ipsum is simply dummy text of the 
                           printing and typesetting industry</p>
                    </div>
-                   <div class="card-footer d-flex justify-content-between border-top-0 ">
+                   <div class="card-footer bg-white d-flex justify-content-between border-top-0 ">
                       <div class="d-flex bd-highlight mb-3  footer-contant ">
                           <div class="p-2 bd-highlight product-buy"> 
                               <span class="product-price">$234</span>
@@ -93,14 +98,14 @@
                 </div>
             </div>
             <div class="col border-0 p-2">
-                <div class="card h-100   border-0 clasual-shoes-area shadow-sm p-3 mb-5 bg-white">
+                <div class="card h-100   border-0 shoes-area shadow-sm p-3 mb-5 bg-white">
                     <img src="images/Photos/pngegg 1.png" class="card-img-top  bg-light casual-img" alt="...">
                   <div class="card-body shoes-description">
                        <h2 class="card-title">Sneakers Basketball shoe</h2>
                        <p class="card-text">Lorem Ipsum is simply dummy text of the 
                            printing and typesetting industry</p>
                   </div>
-                  <div class="card-footer d-flex justify-content-between border-top-0 ">
+                  <div class="card-footer bg-white  d-flex justify-content-between border-top-0 ">
                       <div class="d-flex bd-highlight mb-3  footer-contant ">
                           <div class="p-2 bd-highlight product-buy"> 
                               <span class="product-price">$234</span>
@@ -113,18 +118,19 @@
                 </div>
             </div>
         </section>
+        <!--------------formal shoes area------------------>
         <section class="container mt-5">
             <h1>Formal shoes</h1>
               <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
                <div class="col border-0 p-2 ">
-                 <div class="card h-100   border-0 clasual-shoes-area shadow p-3 mb-5 bg-white rounded">
+                 <div class="card h-100   border-0 border-0 shoes-area shadow-sm p-3 mb-5 bg-white">
                    <img src="images/Photos/Mask Group.png" class="card-img-top " alt="...">
                    <div class="card-body shoes-description">
                      <h2 class="card-title">Prestige High-Cut Leather </h2>
                      <p class="card-text">Lorem Ipsum is simply dummy text of the 
                        printing and typesetting industry</p>
                    </div>
-                   <div class="card-footer d-flex justify-content-between border-top-0 ">
+                   <div class="card-footer bg-white d-flex justify-content-between border-top-0 ">
                        <div class="d-flex bd-highlight mb-3  footer-contant ">
                            <div class="p-2 bd-highlight product-buy"> 
                                <span class="product-price">$234</span>
@@ -137,14 +143,14 @@
                  </div>
                </div>
                <div class="col border-0 p-2">
-                   <div class="card h-100   border-0 clasual-shoes-area shadow p-3 mb-5 bg-white rounded">
+                   <div class="card h-100   border-0 border-0 shoes-area shadow-sm p-3 mb-5 bg-white">
                       <img src="images/Photos/Rectangle 38.png" class="card-img-top casual-img" alt="...">
                       <div class="card-body shoes-description">
                          <h2 class="card-title">Slip-On Formal Shoe </h2>
                           <p class="card-text">Lorem Ipsum is simply dummy text of the 
                              printing and typesetting industry</p>
                       </div>
-                      <div class="card-footer d-flex justify-content-between border-top-0 ">
+                      <div class="card-footer bg-white  d-flex justify-content-between border-top-0 ">
                          <div class="d-flex bd-highlight mb-3  footer-contant ">
                              <div class="p-2 bd-highlight product-buy"> 
                                  <span class="product-price">$234</span>
@@ -157,27 +163,28 @@
                    </div>
                </div>
                <div class="col border-0 p-2">
-                   <div class="card h-100 border-0 clasual-shoes-area shadow p-3 mb-5 bg-white rounded">
+                   <div class="card h-100 border-0 border-0 shoes-area shadow-sm p-3 mb-5 bg-white">
                        <img src="images/Photos/Rectangle 39.png" class="card-img-top casual-img" alt="...">
                      <div class="card-body shoes-description">
                           <h2 class="card-title">Slip-On Formal Shoe</h2>
                           <p class="card-text">Lorem Ipsum is simply dummy text of the 
                               printing and typesetting industry</p>
                      </div>
-                     <div class="card-footer d-flex justify-content-between border-top-0 ">
-                         <div class="d-flex bd-highlight mb-3  footer-contant ">
+                     <div class="card-footer bg-white  d-flex justify-content-between border-top-0 ">
+                         <div class="d-flex bd-highlight  mb-3  footer-contant ">
                              <div class="p-2 bd-highlight product-buy"> 
                                  <span class="product-price">$234</span>
                              </div>
-                             <div class="ms-auto p-2 bd-highlight">
+                             <div class="ms-auto p-2 ">
                                  <button type="button" class="btn btn-primary btn-lg button-size"><img  class="buy-button" src="images/Logo, Icon/shopping-cart 1.png" alt=""> <span class="buy-pro">BUY NOW</span> </button>
                             </div>
-                           </div> 
+                        </div> 
                      </div>
                    </div>
                </div>
            </section>
-           <section class="container mt-5">
+           <!--------------perfect area start-------------------->
+           <section class="container mt-5 mb-5">
                <div class="row">
                    <div class="col-md-5">
                       <div class=" flex-box d-flex align-items-center shadow p-3 mb-3 bg-white">

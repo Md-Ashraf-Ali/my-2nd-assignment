@@ -1,8 +1,49 @@
-.home-page-img{
-    height: 250px;
-    width: 250px;
+body{
+     font-family: 'Oswald', sans-serif;
 }
-.clasual-shoes-area{
+
+.home-page-img {
+    height: 500px;
+    width: 100%;
+}
+.home-page-dis {
+    padding: 61px;
+
+}
+.home-title{
+    color: coral;
+    
+}
+.home-title-size{
+    font-size: 75px;
+    font-weight: bolder;
+    
+
+
+}
+.home-button-size {
+    height: 65px;
+    width: 43%;
+    border: none;
+    border-radius: .5em;
+    padding: -78px;
+}
+    
+
+.icon-img {
+    height: 44px;
+    width: 42%;
+}
+.nav-button {
+    float: right;
+    padding-right: 0px;
+    margin: -140px;
+    font-size: 18px;
+    
+}
+    
+}
+.shoes-area {
     padding: 15px;
     background-color: white;
     border-radius: 1em;
@@ -11,6 +52,7 @@
 .buy-button{
     height: 30px;
     width: 30px;
+
 }
 .product-price {
     font-size: 40px;
@@ -35,16 +77,15 @@
     width: 120%;
     border: none;
     border-radius: .5em;
-    margin-left: 10px;
+    margin-left: 28px;
 }
 .buy-pro {
     font-size: 15px;
     color: white;
     font-weight: bold;
 }
-.footer contant{
-    background-color: white;
-}
+
+
 .fit-img{
     height: 70px;
     width: 90px;
