@@ -1,0 +1,61 @@
+.home-page-img{
+    height: 250px;
+    width: 250px;
+}
+.clasual-shoes-area{
+    padding: 15px;
+    background-color: white;
+    border-radius: 1em;
+
+}
+.buy-button{
+    height: 30px;
+    width: 30px;
+}
+.product-price {
+    font-size: 40px;
+    color: coral;
+    font-weight: bold;
+    margin-left: -29px;
+}
+.casual-img{
+    border-radius: 2em;
+    padding: 10px;
+}
+.shoes-description {
+    padding: 5px;
+}
+.product-buy{
+    font-size: 45px;
+    margin-right: 20px;
+
+}
+.button-size{
+    height: 65px;
+    width: 120%;
+    border: none;
+    border-radius: .5em;
+    margin-left: 10px;
+}
+.buy-pro {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.footer contant{
+    background-color: white;
+}
+.fit-img{
+    height: 70px;
+    width: 90px;
+}
+
+
+.flex-box{
+    border-radius: 20px;
+}
+.shopping-mall-img{
+    height: 385px;
+    width: 100%;
+
+}
